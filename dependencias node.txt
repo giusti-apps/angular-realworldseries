@@ -1,0 +1,13 @@
+$ npm install --save express body-parser express-jwt jwks-rsa method-override mongoose cors --save
+npm install nodemon -g
+
+
+//LOADING COMPONENT
+Generar el componente de LOADING:
+ng g component core/loading --is --it --flat
+--is: alias for --inline-styles
+--it: alias for --inline-template
+--flat: do not generate a containing directory
+
+Web para descargar spinners: https://loading.io/
+Spinner de Auth0: https://cdn.auth0.com/blog/mean-series/loading.svg
