@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from "@angular/common/http";
 import { FormsModule } from "@angular/forms";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AuthService } from "./auth/auth.service";
 import { ApiService } from "./core/api.service";
@@ -21,6 +22,8 @@ import { AdminComponent } from './pages/admin/admin.component';
 import { EventComponent } from './pages/event/event.component';
 import { EventDetailComponent } from './pages/event/event-detail/event-detail.component';
 import { RsvpComponent } from './pages/event/rsvp/rsvp.component';
+import { RsvpFormComponent } from './pages/event/rsvp/rsvp-form/rsvp-form.component';
+import { SubmittingComponent } from './core/forms/submitting.component';
 
 
 
@@ -35,13 +38,16 @@ import { RsvpComponent } from './pages/event/rsvp/rsvp.component';
     AdminComponent,
     EventComponent,
     EventDetailComponent,
-    RsvpComponent
+    RsvpComponent,
+    RsvpFormComponent,
+    SubmittingComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [
     Title, 
