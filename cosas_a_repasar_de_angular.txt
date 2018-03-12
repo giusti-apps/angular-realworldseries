@@ -1,0 +1,20 @@
+https://angular.io/guide/template-syntax#template-reference-variables--var-
+https://angular.io/guide/forms#template-driven-forms
+https://angular.io/guide/reactive-forms
+https://angular.io/api/common/DatePipe
+https://angular.io/api/forms/FormGroup
+https://angular.io/api/forms/FormBuilder#members
+https://angular.io/api/forms/AbstractControl
+https://angular.io/api/forms/Validators
+https://angular.io/guide/reactive-forms#observe-control-changes
+https://angular.io/api/forms/FormControlName
+
+Aprender Form Testing en Angular
+https://medium.com/@paynoattn/angular2-formbuilder-unit-tests-9da5ef5dbbe5
+
+Custom Validation Angular
+https://angular.io/guide/form-validation#custom-validation
+
+Pagina RegEx
+https://regex101.com/r/7iSsmm/2
+

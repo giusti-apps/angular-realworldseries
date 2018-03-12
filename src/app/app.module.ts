@@ -2,7 +2,7 @@ import { BrowserModule, Title } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from "@angular/common/http";
-import { FormsModule } from "@angular/forms";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AuthService } from "./auth/auth.service";
@@ -24,6 +24,9 @@ import { EventDetailComponent } from './pages/event/event-detail/event-detail.co
 import { RsvpComponent } from './pages/event/rsvp/rsvp.component';
 import { RsvpFormComponent } from './pages/event/rsvp/rsvp-form/rsvp-form.component';
 import { SubmittingComponent } from './core/forms/submitting.component';
+import { CreateEventComponent } from './pages/admin/create-event/create-event.component';
+import { UpdateEventComponent } from './pages/admin/update-event/update-event.component';
+import { EventFormComponent } from './pages/admin/event-form/event-form.component';
 
 
 
@@ -40,14 +43,18 @@ import { SubmittingComponent } from './core/forms/submitting.component';
     EventDetailComponent,
     RsvpComponent,
     RsvpFormComponent,
-    SubmittingComponent
+    SubmittingComponent,
+    CreateEventComponent,
+    UpdateEventComponent,
+    EventFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ReactiveFormsModule
   ],
   providers: [
     Title, 
